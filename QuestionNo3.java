@@ -1,16 +1,16 @@
 package question3;
 
 
-import question2.question2;
+import question2.Stack;
 
 public class QuestionNo3 {
 
-  private question2 stack1;
-  private question2 stack2;
+  private Stack stack1;
+  private Stack stack2;
 
   public QuestionNo3(int capacity) {
-    stack1 = new question2(capacity);
-    stack2 = new question2(capacity);
+    stack1 = new Stack(capacity);
+    stack2 = new Stack(capacity);
   }
 
   public void enqueue(int item) {
