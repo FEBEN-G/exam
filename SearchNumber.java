@@ -1,7 +1,7 @@
 package question1;
 import java.util.Scanner;
 
-import question5.MergeSort;
+
 public class SearchNumber {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
